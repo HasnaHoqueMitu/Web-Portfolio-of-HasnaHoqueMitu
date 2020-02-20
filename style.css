@@ -1,0 +1,19 @@
+body{
+    font-family: 'Karla', sans-serif;
+}
+h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+.NameHighlight{
+    color:rgb(3, 124, 13);
+}
+.half-width{
+    margin-left: 10%;
+    padding: 3% 0%;
+    width: 35%;
+    float: left;
+}
+.half-width img{
+    width: 90%;
+}
