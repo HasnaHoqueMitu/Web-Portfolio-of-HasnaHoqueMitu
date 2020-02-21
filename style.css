@@ -1,19 +1,82 @@
 body{
+    margin: 0px;
     font-family: 'Karla', sans-serif;
+    
 }
+
 h1{
     font-size: 40px;
     font-weight: 300;
 }
-.NameHighlight{
-    color:rgb(3, 124, 13);
+h3{
+    font-size: 30px;
+    font-weight: 200px;
+}
+h4{
+    font-size: 20px;
+    font-weight: 150px; 
+}
+.WordsHighlight{
+    color: rgb(8, 71, 173);
 }
 .half-width{
     margin-left: 10%;
-    padding: 3% 0%;
+    padding-left: 3%;
     width: 35%;
     float: left;
 }
 .half-width img{
     width: 90%;
+    height: 480px;
+}
+
+section{
+    height: 520px;
+    padding: 3% 0%;
+}
+.topBanner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    border: skyblue, 1px;
+}
+.link-button{
+    min-width: 200px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, skyblue, rgb(9, 165, 226));
+    padding: 10px, 30px;
+    border-radius: 5px;
+    color: rgb(5, 33, 158);
+    font-weight: 700;
+    
+    
+}
+.Section-heading{
+    margin-left: 100px;
+    padding: 5px 20px;
+    font-size: 35px;
+}
+.SingleExperience{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5px;
+    height: 50%;
+    background-color: white;
+}
+.ExperienceArea{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: middle;
+}
+#Full-Stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(33, 161, 247), rgb(4, 45, 177));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
